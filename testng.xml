@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite">
+    <listeners>
+        <listener class-name="base.Listener">
+
+        </listener>
+    </listeners>
+    <test name="Functional Testing">
+        <classes>
+            <class name="testcases.NewCustomerTest"/>
+            <class name="utilities.Reporting"/>
+        </classes>
+    </test>
+
+</suite>
