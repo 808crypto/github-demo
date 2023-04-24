@@ -9,6 +9,7 @@
         <classes>
             <class name="testcases.NewCustomerTest"/>
             <class name="utilities.Reporting"/>
+            <class name="testcases.NewCustomerTest"></class>
         </classes>
     </test>
 
