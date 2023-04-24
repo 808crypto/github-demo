@@ -1,0 +1,8 @@
+base\BaseTest.class
+testcases\LoginTest.class
+utilities\testUtils.class
+base\Listener.class
+pageobjects\AddCustomer.class
+utilities\Reporting.class
+pageobjects\LoginPage.class
+testcases\NewCustomerTest.class
