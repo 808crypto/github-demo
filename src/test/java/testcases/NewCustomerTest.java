@@ -1,22 +1,20 @@
 package testcases;
 
 import base.BaseTest;
+import base.RetryAnalyzer;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import pageobjects.AddCustomer;
 
 import java.io.File;
 import java.io.IOException;
 
-@Test
+
 public class NewCustomerTest extends BaseTest {
 
+    @Test(retryAnalyzer = RetryAnalyzer.class)
     public void addNewCustomer() throws InterruptedException, IOException {
 
         driver.findElement(By.xpath(loc.getProperty("newcustomer"))).click();
@@ -70,6 +68,8 @@ public class NewCustomerTest extends BaseTest {
             Assert.assertTrue(false);
             System.out.println("failed");
             logger.info("Testing failed");
+            Alert alert = driver.switchTo().alert();
+            alert.accept();
         }
     }
 
