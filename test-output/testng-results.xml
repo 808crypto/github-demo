@@ -26,12 +26,12 @@
       <![CDATA[Status of execution is 1]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-04-20T17:24:58 EAT" name="Test Suite" finished-at="2023-04-20T17:25:33 EAT" duration-ms="34366">
+  <suite started-at="2023-04-26T13:01:45 EAT" name="Test Suite" finished-at="2023-04-26T13:02:57 EAT" duration-ms="71305">
     <groups>
     </groups>
-    <test started-at="2023-04-20T17:24:58 EAT" name="Functional Testing" finished-at="2023-04-20T17:25:33 EAT" duration-ms="34366">
+    <test started-at="2023-04-26T13:01:45 EAT" name="Functional Testing" finished-at="2023-04-26T13:02:57 EAT" duration-ms="71305">
       <class name="utilities.Reporting">
-        <test-method signature="reporterTest1()[pri:0, instance:utilities.Reporting@7f010382]" started-at="2023-04-20T17:25:33 EAT" name="reporterTest1" finished-at="2023-04-20T17:25:33 EAT" duration-ms="1" status="PASS">
+        <test-method signature="reporterTest1()[pri:0, instance:utilities.Reporting@3967e60c]" started-at="2023-04-26T13:02:57 EAT" name="reporterTest1" finished-at="2023-04-26T13:02:57 EAT" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Method name is reporterTest1]]>
@@ -44,7 +44,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- reporterTest1 -->
-        <test-method signature="reporterTest2()[pri:0, instance:utilities.Reporting@7f010382]" started-at="2023-04-20T17:25:33 EAT" name="reporterTest2" finished-at="2023-04-20T17:25:33 EAT" duration-ms="1" status="PASS">
+        <test-method signature="reporterTest2()[pri:0, instance:utilities.Reporting@3967e60c]" started-at="2023-04-26T13:02:57 EAT" name="reporterTest2" finished-at="2023-04-26T13:02:57 EAT" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Method name is reporterTest2]]>
@@ -59,11 +59,11 @@
         </test-method> <!-- reporterTest2 -->
       </class> <!-- utilities.Reporting -->
       <class name="testcases.NewCustomerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.NewCustomerTest@77167fb7]" started-at="2023-04-20T17:24:58 EAT" name="setUp" finished-at="2023-04-20T17:25:21 EAT" duration-ms="22078" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.NewCustomerTest@54c562f7]" started-at="2023-04-26T13:01:46 EAT" name="setUp" finished-at="2023-04-26T13:02:39 EAT" duration-ms="53540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addNewCustomer()[pri:0, instance:testcases.NewCustomerTest@77167fb7]" started-at="2023-04-20T17:25:21 EAT" name="addNewCustomer" finished-at="2023-04-20T17:25:32 EAT" duration-ms="11228" status="PASS">
+        <test-method signature="addNewCustomer()[pri:0, instance:testcases.NewCustomerTest@54c562f7]" started-at="2023-04-26T13:02:39 EAT" name="addNewCustomer" finished-at="2023-04-26T13:02:55 EAT" duration-ms="15909" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Method name is addNewCustomer]]>
@@ -73,7 +73,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.NewCustomerTest@77167fb7]" started-at="2023-04-20T17:25:32 EAT" name="tearDown" finished-at="2023-04-20T17:25:33 EAT" duration-ms="903" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.NewCustomerTest@54c562f7]" started-at="2023-04-26T13:02:55 EAT" name="tearDown" finished-at="2023-04-26T13:02:57 EAT" duration-ms="1775" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,8 +1,11 @@
+pageobjects\AddCustomer.class
+utilities\Reporting.class
+utilities\readXlsData.class
 base\BaseTest.class
 testcases\LoginTest.class
 utilities\testUtils.class
+base\RetryAnalyzer.class
 base\Listener.class
-pageobjects\AddCustomer.class
-utilities\Reporting.class
+testcases\NewAccountTest.class
 pageobjects\LoginPage.class
 testcases\NewCustomerTest.class
