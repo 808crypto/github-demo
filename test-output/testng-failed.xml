@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="Functional Testing(failed)">
     <classes>
-      <class name="testcases.NewCustomerTest">
+      <class name="testcases.NewAccountTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="addNewCustomer"/>
+          <include name="addNewAccount"/>
         </methods>
-      </class> <!-- testcases.NewCustomerTest -->
+      </class> <!-- testcases.NewAccountTest -->
     </classes>
   </test> <!-- Functional Testing(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->
